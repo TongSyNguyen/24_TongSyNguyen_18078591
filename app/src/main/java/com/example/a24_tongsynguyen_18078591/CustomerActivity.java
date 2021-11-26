@@ -18,7 +18,7 @@ public class CustomerActivity extends AppCompatActivity {
         ban1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(CustomerActivity.this, DetailActivity1.class);
+                Intent intent = new Intent(CustomerActivity.this, CustomerOrder.class);
                 startActivity(intent);
             }
         });
