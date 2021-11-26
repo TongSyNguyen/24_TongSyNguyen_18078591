@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#214F4F"
-    tools:context=".DetailActivity1">
+    tools:context=".DetailActivity2">
 
     <EditText
         android:id="@+id/edta2"
@@ -143,17 +143,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="476dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.885"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/btnhoi" />
-
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
@@ -177,5 +166,19 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/tinhtien" />
+
+    <TextView
+        android:id="@+id/tong"
+        android:layout_width="62dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="32dp"
+        android:text="680K"
+        android:textColor="#FFD233"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.879"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edta4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
